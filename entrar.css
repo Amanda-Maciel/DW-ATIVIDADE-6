@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .navbar {
+    background-color: #114B2E;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  .nav-menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 1rem;
+  }
+  
+  .nav-menu li {
+    position: relative;
+    margin: 0 1rem;
+  }
+  
+  .nav-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+  }
+  
+  .nav-menu a:hover {
+    color: #90ee90;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    background-color: #114B2E;
+    min-width: 180px;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu a {
+    display: block;
+    padding: 0.75rem 1rem;
+    color: white;
+  }
+  
+  main.conteudo {
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  
+  .login-section {
+    max-width: 400px;
+    margin: auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  .login-section h2 {
+    color: #114B2E;
+    margin-bottom: 2rem;
+  }
+  
+  .login-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  button {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .btn-principal {
+    background-color: #114B2E;
+    color: white;
+  }
+  
+  .btn-secundario {
+    background-color: #999;
+    color: white;
+  }
+  
+  footer {
+    background-color: #114B2E;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  

@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .navbar {
+    background-color: #114B2E;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .nav-menu li {
+    margin: 0 1rem;
+    position: relative;
+  }
+  
+  .nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding: 0.5rem;
+    transition: color 0.3s;
+  }
+  
+  .nav-menu a:hover {
+    color: #90ee90;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #114B2E;
+    display: none;
+    min-width: 200px;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu li {
+    margin: 0;
+  }
+  
+  .dropdown-menu a {
+    display: block;
+    padding: 0.8rem 1rem;
+    border-bottom: 1px solid #0e3c26;
+  }
+  
+  .curso-section {
+    padding: 3rem 1.5rem;
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin-top: 2rem;
+  }
+  
+  .curso-section h2 {
+    text-align: center;
+    color: #114B2E;
+    margin-bottom: 2rem;
+  }
+  
+  .caixa-conteudo {
+    padding: 1rem;
+  }
+  
+  .caixa-conteudo h3 {
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  p {
+    width: 100%;
+    height: 150px;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+
+    font-size: 1rem;
+  }
+  
+  footer {
+    background-color: #114B2E;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+  }
+  
+  .icon {
+    width: 24px;
+    margin-top: 0.5rem;
+  }
+  
